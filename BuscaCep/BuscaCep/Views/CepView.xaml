@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:BuscaCep.ViewModels"
+             mc:Ignorable="d"
+             x:Class="BuscaCep.Views.CepView" Appearing="ContentPage_Appearing" Disappearing="ContentPage_Disappearing">
+    <ContentPage.BindingContext>
+        <vm:CepViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Busca CEP"  FontSize="Header" HorizontalTextAlignment="Center" Margin="3,0,0,0"/>
+                <Label Text="CEP"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Grid.Column="0"  Text="{Binding CepBusca}" Placeholder="Cep"/>
+                <Button Grid.Column="1" Text="Buscar" Command="{Binding BuscarCommand}" />
+                <Label Text="Logradouro"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.logradouro}" Placeholder="Logradouro"/>
+                <Label Text="Complemento"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.complemento}" Placeholder="Complemento"/>
+                <Label Text="bairro"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.bairro}" Placeholder="bairro"/>
+                <Label Text="uf"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.uf}" Placeholder="uf"/>
+                <Label Text="localidade"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.localidade}" Placeholder="localidade"/>
+                <Label Text="ibge"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.ibge}" Placeholder="ibge"/>
+                <Label Text="gia"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.gia}" Placeholder="gia"/>
+                <Label Text="ddd"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.ddd}" Placeholder="ddd"/>
+                <Label Text="siafi"  FontSize="Caption" Margin="3,0,0,0"/>
+                <Entry Text="{Binding Cep.siafi}" Placeholder="siafi"/>
+            </StackLayout>
+        </ScrollView>
+       
+    </ContentPage.Content>
+</ContentPage>

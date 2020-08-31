@@ -1,0 +1,15 @@
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\bin\Debug\netstandard2.0\BuscaCep.deps.json
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\bin\Debug\netstandard2.0\BuscaCep.dll
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\bin\Debug\netstandard2.0\ref\BuscaCep.dll
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\bin\Debug\netstandard2.0\BuscaCep.pdb
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.csprojAssemblyReference.cache
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.AssemblyInfoInputs.cache
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.AssemblyInfo.cs
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.dll
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\ref\BuscaCep.dll
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.pdb
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\Views\CepView.xaml.g.cs
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\BuscaCep.csproj.CoreCompileInputs.cache
+C:\Users\Felip\source\repos\BuscaCep\BuscaCep\BuscaCep\obj\Debug\netstandard2.0\XamlC.stamp
